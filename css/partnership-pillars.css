@@ -1,0 +1,795 @@
+.pp-hero {
+    background: #13215c url('../images/partership-pillars-banner.webp') center / cover no-repeat;
+    padding: 80px 0;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.pp-hero::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: rgba(19, 34, 92, 0.687);
+}
+
+.pp-hero .pp-hero-inner {
+    position: relative;
+    z-index: 1;
+    border: 1px solid #e9d588;
+    padding: 60px 70px;
+    max-width: 950px;
+    margin: 0 auto;
+}
+
+.pp-hero .pp-eyebrow {
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #e9d588;
+    margin-bottom: 22px;
+}
+
+.pp-hero h1 {
+    font-family: 'antic_didoneregular', serif;
+    font-size: 60px;
+    font-weight: normal;
+    color: #fff;
+    line-height: 1.15;
+    margin-bottom: 25px;
+}
+
+.pp-hero p {
+    color: rgba(255, 255, 255, 0.88);
+    font-size: 20px;
+    line-height: 1.7;
+    max-width: 680px;
+    margin: 0 auto;
+}
+
+
+/* ══════════════════════════════════════════
+           INTRO SPLIT
+        ══════════════════════════════════════════ */
+.pp-intro {
+    padding: 0;
+    background: #fff9ef;
+}
+
+.pp-intro .pp-intro-grid {
+    display: flex;
+    align-items: stretch;
+    min-height: 520px;
+}
+
+.pp-intro .pp-intro-text {
+    width: 50%;
+    padding: 90px 70px 90px 60px;
+}
+
+.pp-intro .pp-intro-text .pp-eyebrow {
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #13215c;
+    margin-bottom: 18px;
+}
+
+.pp-intro .pp-intro-text h2 {
+    font-family: 'antic_didoneregular', serif;
+    font-size: 50px;
+    font-weight: normal;
+    color: #13215c;
+    line-height: 1.12;
+    margin-bottom: 28px;
+}
+
+.pp-intro .pp-intro-text p {
+    color: #13215c;
+    font-size: 17px;
+    line-height: 1.85;
+    margin-bottom: 20px;
+}
+
+.pp-intro .pp-intro-text p:last-child {
+    margin-bottom: 0;
+}
+
+.pp-intro .pp-intro-img {
+    width: 50%;
+}
+
+.pp-intro .pp-intro-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+
+/* ══════════════════════════════════════════
+           THREE PILLARS — NAVY
+        ══════════════════════════════════════════ */
+.pp-pillars {
+    background: #13215c;
+    padding: 100px 0;
+}
+
+.pp-pillars .pp-section-header {
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.pp-pillars .pp-section-header .pp-eyebrow {
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 16px;
+}
+
+.pp-pillars .pp-section-header h2 {
+    font-family: 'antic_didoneregular', serif;
+    font-size: 56px;
+    font-weight: normal;
+    color: #fff;
+    line-height: 1.1;
+}
+
+/* Pillars grid row */
+.pp-pillars-grid {
+    display: flex;
+    align-items: stretch;
+    gap: 0;
+}
+
+.pp-pillars-grid .pp-pillar-col {
+
+    flex: 1;
+}
+
+.pp-pillars-grid .pp-pillar-divider {
+    width: 60px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pp-pillars-grid .pp-pillar-divider i {
+    font-size: 28px;
+    color: rgba(233, 213, 136, 0.4);
+}
+
+.pp-pillar-card {
+    border: 1px solid rgba(233, 213, 136, 0.35);
+    padding: 50px 38px 44px;
+    height: 100%;
+    transition: border-color 0.35s;
+}
+
+.pp-pillar-card:hover {
+    border-color: rgba(233, 213, 136, 0.9);
+}
+
+.pp-pillar-card .pp-pillar-num {
+    font-family: 'antic_didoneregular', serif;
+    font-size: 80px;
+    color: #e9d588;
+    line-height: 1;
+    display: block;
+    margin-bottom: -10px;
+}
+
+.pp-pillar-card .pp-pillar-icon {
+    font-size: 36px;
+    color: #e9d588;
+    margin-bottom: 22px;
+    display: block;
+}
+
+.pp-pillar-card h3 {
+    font-family: 'antic_didoneregular', serif;
+    font-size: 36px;
+    font-weight: normal;
+    color: #fff;
+    margin: 16px 0px;
+    line-height: 1.15;
+}
+
+.pp-pillar-card .pp-pillar-tagline {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #e9d588;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.pp-pillar-card p {
+    color: rgba(255, 255, 255, 0.78);
+    font-size: 16px;
+    line-height: 1.8;
+    margin-bottom: 24px;
+}
+
+.pp-pillar-card ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.pp-pillar-card ul li {
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.70);
+    padding: 10px 0 10px 22px;
+    border-bottom: 1px solid rgba(233, 213, 136, 0.18);
+    position: relative;
+    line-height: 1.55;
+}
+
+.pp-pillar-card ul li:first-child {
+    border-top: 1px solid rgba(233, 213, 136, 0.18);
+}
+
+.pp-pillar-card ul li::before {
+    content: '·';
+    position: absolute;
+    left: 0;
+    color: #e9d588;
+    font-size: 24px;
+    line-height: 1.05;
+}
+
+
+/* ══════════════════════════════════════════
+           BENEFITS — CREAM
+        ══════════════════════════════════════════ */
+.pp-benefits {
+    background: #fff9ef;
+    padding: 100px 0;
+}
+
+.pp-benefits .pp-section-header {
+    text-align: center;
+    margin-bottom: 65px;
+}
+
+.pp-benefits .pp-section-header .pp-eyebrow {
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #13215c;
+    margin-bottom: 14px;
+}
+
+.pp-benefits .pp-section-header h2 {
+    font-family: 'antic_didoneregular', serif;
+    font-size: 52px;
+    font-weight: normal;
+    color: #13215c;
+    line-height: 1.12;
+}
+
+.pp-benefits-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 28px;
+}
+
+.pp-benefits-grid .pp-benefit-card {
+    width: calc(33.333% - 19px);
+    border: 1px solid #e9d588;
+    padding: 42px 32px;
+}
+
+.pp-benefit-card .pp-benefit-icon {
+    font-size: 38px;
+    color: #e9d588;
+    margin-bottom: 22px;
+    display: block;
+}
+
+.pp-benefit-card h4 {
+    font-family: 'antic_didoneregular', serif;
+    font-size: 28px;
+    font-weight: normal;
+    color: #13215c;
+    margin-bottom: 14px;
+    line-height: 1.2;
+}
+
+.pp-benefit-card p {
+    color: #555;
+    font-size: 16px;
+    line-height: 1.78;
+    margin: 0;
+}
+
+
+/* ══════════════════════════════════════════
+           PROCESS — WHITE
+        ══════════════════════════════════════════ */
+.pp-process {
+    background: #fff;
+    padding: 100px 0;
+}
+
+.pp-process .pp-process-grid {
+    display: flex;
+    align-items: stretch;
+    gap: 60px;
+}
+
+.pp-process .pp-process-steps {
+    width: 50%;
+}
+
+.pp-process .pp-process-img {
+    width: 50%;
+}
+
+.pp-process .pp-process-img img {
+    width: 100%;
+    height: 100%;
+    min-height: 500px;
+    object-fit: cover;
+    display: block;
+}
+
+.pp-process .pp-section-header {
+    margin-bottom: 60px;
+}
+
+.pp-process .pp-section-header .pp-eyebrow {
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #13215c;
+    margin-bottom: 14px;
+}
+
+.pp-process .pp-section-header h2 {
+    font-family: 'antic_didoneregular', serif;
+    font-size: 52px;
+    font-weight: normal;
+    color: #13215c;
+    line-height: 1.1;
+    margin-bottom: 18px;
+}
+
+.pp-process .pp-section-header p {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.8;
+    max-width: 520px;
+}
+
+.pp-step {
+    display: flex;
+    gap: 32px;
+    margin-bottom: 50px;
+    align-items: flex-start;
+}
+
+.pp-step:last-child {
+    margin-bottom: 0;
+}
+
+.pp-step .pp-step-num {
+    font-family: 'antic_didoneregular', serif;
+    font-size: 62px;
+    color: #e9d588;
+    line-height: 1;
+    flex-shrink: 0;
+    width: 72px;
+    text-align: right;
+}
+
+.pp-step .pp-step-body {
+    border-top: 1px solid #e9d588;
+    padding-top: 18px;
+    flex: 1;
+}
+
+.pp-step .pp-step-body h4 {
+    font-family: 'antic_didoneregular', serif;
+    font-size: 26px;
+    font-weight: normal;
+    color: #13215c;
+    margin-bottom: 10px;
+}
+
+.pp-step .pp-step-body p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.78;
+    margin: 0;
+}
+
+
+/* ══════════════════════════════════════════
+           CHANNELS STRIP — NAVY
+        ══════════════════════════════════════════ */
+.pp-channels {
+    background: #13215c;
+    padding: 90px 0;
+}
+
+.pp-channels .pp-channels-inner {
+    border: 1px solid #e9d588;
+    padding: 70px;
+    text-align: center;
+}
+
+.pp-channels .pp-eyebrow {
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 16px;
+}
+
+.pp-channels h2 {
+    font-family: 'antic_didoneregular', serif;
+    font-size: 50px;
+    font-weight: normal;
+    color: #fff;
+    margin-bottom: 20px;
+    line-height: 1.2;
+}
+
+.pp-channels .pp-channels-intro {
+    font-size: 19px;
+    line-height: 1.8;
+    color: rgba(255, 255, 255, 0.85);
+    max-width: 700px;
+    margin: 0 auto 50px;
+}
+
+.pp-channels .pp-logos-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 55px;
+    flex-wrap: wrap;
+}
+
+.pp-channels .pp-logos-row img {
+    height: 44px;
+    width: auto;
+    object-fit: contain;
+    filter: brightness(0) invert(1);
+    opacity: 0.65;
+    transition: opacity 0.3s;
+}
+
+.pp-channels .pp-logos-row img:hover {
+    opacity: 1;
+}
+
+
+/* ══════════════════════════════════════════
+           COMMITMENT SPLIT — WHITE
+        ══════════════════════════════════════════ */
+.pp-commitment {
+    background: #fff;
+    padding: 100px 0;
+}
+
+.pp-commitment .pp-commitment-grid {
+    display: flex;
+    align-items: center;
+    gap: 0;
+}
+
+.pp-commitment .pp-commitment-img {
+    width: 50%;
+}
+
+.pp-commitment .pp-commitment-img img {
+    width: 100%;
+    height: 560px;
+    object-fit: cover;
+    display: block;
+}
+
+.pp-commitment .pp-commitment-text {
+    width: 50%;
+    padding-left: 65px;
+}
+
+.pp-commitment .pp-commitment-text .pp-eyebrow {
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #13215c;
+    margin-bottom: 18px;
+}
+
+.pp-commitment .pp-commitment-text h2 {
+    font-family: 'antic_didoneregular', serif;
+    font-size: 50px;
+    font-weight: normal;
+    color: #13215c;
+    line-height: 1.12;
+    margin-bottom: 28px;
+}
+
+.pp-commitment .pp-commitment-text p {
+    color: #555;
+    font-size: 17px;
+    line-height: 1.85;
+    margin-bottom: 20px;
+}
+
+.pp-commitment .pp-commitment-text ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.pp-commitment .pp-commitment-text ul li {
+    font-size: 17px;
+    color: #13215c;
+    padding: 12px 0 12px 24px;
+    border-bottom: 1px solid #e9d588;
+    position: relative;
+    line-height: 1.55;
+}
+
+.pp-commitment .pp-commitment-text ul li:first-child {
+    border-top: 1px solid #e9d588;
+}
+
+.pp-commitment .pp-commitment-text ul li::before {
+    content: '·';
+    position: absolute;
+    left: 0;
+    color: #e9d588;
+    font-size: 24px;
+    line-height: 1.05;
+}
+
+
+/* ══════════════════════════════════════════
+           CTA
+        ══════════════════════════════════════════ */
+.pp-cta {
+    background: #fff9ef;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.pp-cta .pp-eyebrow {
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #13215c;
+    margin-bottom: 18px;
+}
+
+.pp-cta h2 {
+    font-family: 'antic_didoneregular', serif;
+    font-size: 58px;
+    font-weight: normal;
+    color: #13215c;
+    margin-bottom: 22px;
+    line-height: 1.12;
+}
+
+.pp-cta p {
+    font-size: 19px;
+    color: #555;
+    max-width: 620px;
+    margin: 0 auto 48px;
+    line-height: 1.75;
+}
+
+.pp-cta .pp-btn-row {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.pp-cta .pp-btn-primary {
+    background: #e9d588;
+    color: #000;
+    padding: 15px 55px;
+    text-decoration: none;
+    font-family: 'antic_didoneregular', serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    display: inline-flex;
+    transition: all 0.4s;
+}
+
+.pp-cta .pp-btn-primary:hover {
+    background: #eddda0;
+}
+
+.pp-cta .pp-btn-outline {
+    background: transparent;
+    color: #13215c;
+    padding: 15px 55px;
+    text-decoration: none;
+    font-family: 'antic_didoneregular', serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    display: inline-flex;
+    border: 1px solid #13215c;
+    transition: all 0.4s;
+}
+
+.pp-cta .pp-btn-outline:hover {
+    background: #13215c;
+    color: #fff;
+}
+
+
+/* ══════════════════════════════════════════
+           RESPONSIVE — TABLET
+        ══════════════════════════════════════════ */
+@media (max-width: 991px) {
+
+    .pp-hero .pp-hero-inner {
+        padding: 40px 30px;
+    }
+
+    .pp-hero h1 {
+        font-size: 40px;
+    }
+
+    .pp-intro .pp-intro-grid {
+        flex-direction: column;
+    }
+
+    .pp-intro .pp-intro-text {
+        width: 100%;
+        padding: 60px 30px;
+    }
+
+    .pp-intro .pp-intro-img {
+        width: 100%;
+    }
+
+    .pp-intro .pp-intro-img img {
+        min-height: 340px;
+    }
+
+    .pp-pillars {
+        padding: 70px 0;
+    }
+
+    .pp-pillars-grid {
+        flex-direction: column;
+    }
+
+    .pp-pillars-grid .pp-pillar-col {
+        width: 100%;
+    }
+
+    .pp-pillar-card {
+        margin-bottom: 24px;
+    }
+
+    .pp-pillars-grid .pp-pillar-divider {
+        display: none;
+    }
+
+    .pp-benefits-grid .pp-benefit-card {
+        width: calc(50% - 14px);
+    }
+
+    .pp-process .pp-process-grid {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .pp-process .pp-process-steps {
+        width: 100%;
+    }
+
+    .pp-process .pp-process-img {
+        width: 100%;
+    }
+
+    .pp-process .pp-process-img img {
+        min-height: 320px;
+    }
+
+    .pp-channels .pp-channels-inner {
+        padding: 50px 30px;
+    }
+
+    .pp-commitment .pp-commitment-grid {
+        flex-direction: column;
+    }
+
+    .pp-commitment .pp-commitment-img {
+        width: 100%;
+    }
+
+    .pp-commitment .pp-commitment-img img {
+        height: 360px;
+    }
+
+    .pp-commitment .pp-commitment-text {
+        width: 100%;
+        padding-left: 0;
+        padding-top: 50px;
+    }
+}
+
+@media (max-width: 767px) {
+    .pp-hero .pp-hero-inner {
+        padding: 40px 20px;
+    }
+
+    .pp-hero h1 {
+        font-size: 30px;
+    }
+
+    .pp-hero p {
+        font-size: 16px;
+    }
+
+    .pp-pillars .pp-section-header,
+    .pp-benefits .pp-section-header {
+        text-align: left;
+        margin-bottom: 20px;
+    }
+
+    .pp-benefits-grid .pp-benefit-card {
+        width: 100%;
+    }
+
+    .pp-step {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .pp-pillar-card {
+        padding: 20px;
+    }
+
+    .pp-pillar-card h3 {
+        font-size: 25px;
+    }
+
+    .pp-pillar-card .pp-pillar-num {
+        font-size: 72px;
+    }
+
+    .pp-step .pp-step-num {
+        width: auto;
+        text-align: left;
+        font-size: 44px;
+    }
+
+    .pp-benefit-card h4 {
+        font-size: 25px;
+    }
+
+    .pp-cta .pp-btn-row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .pp-cta .pp-btn-primary,
+    .pp-cta .pp-btn-outline {
+        width: 100%;
+        max-width: 300px;
+        justify-content: center;
+    }
+}
